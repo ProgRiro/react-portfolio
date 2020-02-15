@@ -1,0 +1,19 @@
+.count-number {
+  font-size: 3.5em;
+}
+
+@media screen and (max-width: 767px) {
+  .count-number {
+    font-size: 3.5em;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .count-number {
+    font-size: 4em;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+}
